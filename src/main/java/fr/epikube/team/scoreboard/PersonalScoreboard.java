@@ -21,7 +21,7 @@ public class PersonalScoreboard {
     PersonalScoreboard(Player player) {
         this.player = player;
         uuid = player.getUniqueId();
-        objectiveSign = new ObjectiveSign("sidebar", "Ovalyon");
+        objectiveSign = new ObjectiveSign("sidebar", "Epikube");
 
         reloadData();
         objectiveSign.addReceiver(player);
